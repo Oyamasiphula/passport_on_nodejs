@@ -1,0 +1,17 @@
+<html>
+<head>
+	<title>passport</title>
+</head>
+<body>
+
+<p>Home Page</p>
+{{#if isAuthenticated}}
+Hello, {{user.name}}
+ 	{{else}}
+<a href="/login">Login here</a>
+{{/if}}
+</body>
+
+</html>
+
+
